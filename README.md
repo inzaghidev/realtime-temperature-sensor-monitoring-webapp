@@ -6,7 +6,7 @@ Web-Based Applications Developments (Webdev) Project for Realtime Temperature Se
 Inilah Tampilan Sederhana dari Aplikasi Web Monitoring Sensor Suhu :
 \
 \
-![Realtime Temperature Sensor Monitoring App](./images/realtime-temperature-sensor-monitoring-webdev.png)
+![Realtime Temperature Sensor Monitoring App](./images/realtime-temperature-sensor-monitoring-webdev.jpg)
 
 ## Description
 
