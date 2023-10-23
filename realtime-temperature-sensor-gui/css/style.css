@@ -12,8 +12,7 @@ body {
 }
 
 h1 {
-  margin-top: 20px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   font-size: 44px;
   font-weight: 400;
   line-height: 62px;
@@ -100,5 +99,19 @@ h1 {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+/* Adjustments for tablet and mobile view */
+@media (max-width: 991px) {
+  .sensor-card {
+    margin-bottom: 20px;
+  }
+}
+
+/* Adjustments for mobile view */
+@media (max-width: 767px) {
+  .sensor-card {
+    margin-bottom: 20px;
   }
 }
