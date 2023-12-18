@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Realtime Temperature Monitoring Sensors</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../public/css/style.css" type="text/css" />
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-12">
+        <div class="dashboard">
+          <h1 class="dashboard-title">
+            Realtime Temperature Monitoring Sensors
+          </h1>
+          <button class="btn btn-primary" id="addSensorBtn">Add Sensor</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row" id="sensorContainer">
+        <!-- Sensors will be dynamically added here -->
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.2/socket.io.js"></script>
+    <script src="../public/js/script.js"></script>
+    <script>
+      const socket = io();
+
+      socket.on("initialData", (data) => {
+        data.forEach((sensor) => {
+          updateCircularProgressBar(
+            sensor.id,
+            sensor.temperature,
+            sensor.number
+          );
+        });
+      });
+
+      socket.on("temperatureUpdate", (data) => {
+        updateCircularProgressBar(data.id, data.temperature, data.number);
+      });
+    </script>
+  </body>
+</html>

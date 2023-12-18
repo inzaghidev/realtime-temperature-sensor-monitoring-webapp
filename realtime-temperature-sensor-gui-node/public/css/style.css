@@ -1,0 +1,116 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #9bc2e9;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+.row {
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 62px;
+  font-family: Arial, sans-serif;
+}
+
+.dashboard-title {
+  text-align: center;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.sensor-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.circular-progress {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background: conic-gradient(#001aac 3.6deg, #bebebe 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.circular-progress::before {
+  content: "";
+  position: absolute;
+  height: 210px;
+  width: 210px;
+  border-radius: 50%;
+  animation: fill 2s linear infinite;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.progress-value {
+  position: relative;
+  font-size: 40px;
+  font-weight: 600;
+  color: #001aac;
+}
+
+.text {
+  font-size: 30px;
+  font-weight: 500;
+  color: #606060;
+}
+
+.text-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+@keyframes fill {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Adjustments for tablet and mobile view */
+@media (max-width: 991px) {
+  .sensor-card {
+    margin-bottom: 20px;
+  }
+}
+
+/* Adjustments for mobile view */
+@media (max-width: 767px) {
+  .sensor-card {
+    margin-bottom: 20px;
+  }
+}
