@@ -28,16 +28,16 @@ Steps :
 
 Pertama, buatlah direktori baru untuk proyek Anda dan masuk ke dalamnya :
 
-› › › › mkdir realtime-temperature-sensor
-› › › › cd realtime-temperature-sensor
+> mkdir realtime-temperature-sensor
+> cd realtime-temperature-sensor
 
 Kedua, Inisialisasikan proyek Node.js dan buat file package.json dengan menjalankan perintah :
 
-> > > > npm init -y
+> npm init -y
 
 2. Install Package yang Diperlukan
 
-> > > > npm install express http socket.io
+> npm install express http socket.io
 
 **3. [Project Realtime Temperature Sensor GUI Laravel [Coming Soon]](.)**
   
