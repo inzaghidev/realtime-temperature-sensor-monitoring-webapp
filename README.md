@@ -23,6 +23,22 @@ Merupakan Project Aplikasi Monitoring Sensor Suhu Sederhana yang terdiri dari:
   
 Merupakan Lanjutan dari Project Aplikasi Monitoring Sensor Suhu Sederhana (yang di Nomor 1) yang menggunakan Framework Node.js. Untuk Project ini, melakukan Update Data secara Realtime menggunakan WebSockets, dan Server-nya menggunakan JavaScript.
 
+Steps :
+1. Persiapan Project
+
+Pertama, buatlah direktori baru untuk proyek Anda dan masuk ke dalamnya :
+
+› › › › mkdir realtime-temperature-sensor
+› › › › cd realtime-temperature-sensor
+
+Kedua, Inisialisasikan proyek Node.js dan buat file package.json dengan menjalankan perintah :
+
+> > > > npm init -y
+
+2. Install Package yang Diperlukan
+
+> > > > npm install express http socket.io
+
 **3. [Project Realtime Temperature Sensor GUI Laravel [Coming Soon]](.)**
   
 Merupakan Lanjutan dari Project Aplikasi Monitoring Sensor Suhu Sederhana (yang di Nomor 1) yang menggunakan Framework Laravel. Untuk Project ini, melakukan Update Data secara Realtime menggunakan WebSockets, dan Server-nya menggunakan PHP.
