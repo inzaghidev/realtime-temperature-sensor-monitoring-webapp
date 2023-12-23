@@ -19,11 +19,11 @@ Merupakan Project Aplikasi Monitoring Sensor Suhu Sederhana yang terdiri dari :
 - Bootstrap
 - jQuery
 A
-3. [Project Realtime Temperature Sensor GUI Node.js](./realtime-temperature-sensor-gui-node)
+2. [Project Realtime Temperature Sensor GUI Node.js](./realtime-temperature-sensor-gui-node)
 \
 Merupakan Lanjutan dari Project Aplikasi Monitoring Sensor Suhu Sederhana (Yang di Nomor 1) yang menggunakan Framework Node.js. Untuk Project ini untuk melakukan Update Data secara Realtime menggunakan WebSockets, dan Server-nya menggunakan JavaScript.
 A
-4. [Project Realtime Temperature Sensor GUI Laravel [Coming Soon]](.)
+3. [Project Realtime Temperature Sensor GUI Laravel [Coming Soon]](.)
 \
 Merupakan Lanjutan dari Project Aplikasi Monitoring Sensor Suhu Sederhana (Yang di Nomor 1) yang menggunakan Framework Laravel. Untuk Project ini untuk melakukan Update Data secara Realtime menggunakan WebSockets, dan Server-nya menggunakan PHP.
 A
