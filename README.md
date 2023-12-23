@@ -10,13 +10,13 @@ Inilah Tampilan Sederhana dari Aplikasi Web Monitoring Sensor Suhu :
 
 ## Description
 
-**1. Project [Realtime Temperature Sensor GUI](./realtime-temperature-sensor-gui)** .\
+**1. Project Realtime Temperature Sensor GUI [[Klik di sini]](./realtime-temperature-sensor-gui)** .\
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 A
-**2. Project [Realtime Temperature Sensor GUI Node.js](./realtime-temperature-sensor-gui-node)** .\
+**2. Project Realtime Temperature Sensor GUI Node.js [[Klik di sini]](./realtime-temperature-sensor-gui-node)** .\
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 A
-**3. Project [Realtime Temperature Sensor GUI Laravel (Coming Soon)](.)** .\
+**3. Project Realtime Temperature Sensor GUI Laravel (Coming Soon) [[Klik di sini]](.)** .\
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 A
 .
