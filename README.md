@@ -18,7 +18,7 @@ A
 \
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 A
-3. Project Realtime Temperature Sensor GUI Laravel (Coming Soon) [[Klik di sini]](.)
+3. Project Realtime Temperature Sensor GUI Laravel [[Coming Soon]](.)
 \
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 A
