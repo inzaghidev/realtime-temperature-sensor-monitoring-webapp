@@ -1,6 +1,7 @@
 const express = require("express");
 const http = require("http");
 const socketIO = require("socket.io");
+const path = require("path"); // Tambahkan require path untuk manipulasi path
 
 const app = express();
 const server = http.createServer(app);
@@ -10,9 +11,8 @@ const PORT1 = process.env.PORT1 || 3001;
 const PORT2 = process.env.PORT2 || 3002;
 const PORT3 = process.env.PORT3 || 3003;
 
-app.get("/", (req, res) => {
-  res.send("Server is running.");
-});
+// Tambahkan middleware untuk menyajikan file statis (index.html)
+app.use(express.static(path.join(__dirname, "./public")));
 
 let sensorsData = [];
 
@@ -55,8 +55,6 @@ for (let i = 1; i <= 6; i++) {
 }
 
 updateTemperature();
-
-app.use("/public", express.static("public"));
 
 io.on("connection", (socket) => {
   console.log("A client connected");
