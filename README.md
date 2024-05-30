@@ -39,7 +39,7 @@ Kedua, Inisialisasikan proyek Node.js dan buat file package.json dengan menjalan
 
 > npm install express http socket.io
 
-**3. [Project Realtime Temperature Sensor GUI Laravel [Coming Soon]](.)**
+**3. [Project Realtime Temperature Sensor GUI Laravel [Coming Soon]](./realtime-temperature-sensor-gui-laravel)**
   
 Merupakan Lanjutan dari Project Aplikasi Monitoring Sensor Suhu Sederhana (yang di Nomor 1) yang menggunakan Framework Laravel. Untuk Project ini, melakukan Update Data secara Realtime menggunakan WebSockets, dan Server-nya menggunakan PHP.
 
