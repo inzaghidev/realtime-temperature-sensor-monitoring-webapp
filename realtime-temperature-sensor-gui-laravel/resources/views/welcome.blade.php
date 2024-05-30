@@ -9,7 +9,8 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!-- Link to your app.css using asset() function -->
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}" type="text/css" />
   </head>
   <body>
     <div class="row">
@@ -33,7 +34,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!-- Custom JavaScript -->
-    <script src="js/script.js"></script>
+    <!-- Link to your script.js using asset() function -->
+    <script src="{{ asset('assets/js/script.js') }}"></script>
   </body>
 </html>
+
+<!-- https://www.youtube.com/watch?v=9Nnj1zx48iY -->
